@@ -12,11 +12,12 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.home);
+        init();
         Button button1= (Button)findViewById(R.id.regist);
         button1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this,Regist.class);
+                Intent intent = new Intent(MainActivity.this, Regist.class);
                 startActivity(intent);
             }
         });
@@ -28,5 +29,9 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+    }
+
+    private void init() {
+
     }
 }
