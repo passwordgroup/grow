@@ -13,7 +13,6 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.home);
-        init();
         Button button1= (Button)findViewById(R.id.regist);
         button1.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -30,9 +29,5 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-    }
-
-    private void init() {
-        TextView textView;
     }
 }

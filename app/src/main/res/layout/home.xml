@@ -7,11 +7,11 @@
     android:background="@drawable/img2">
 
     <Button android:id="@+id/regist"
-        android:text="注册"
+        android:text="柯京辰你妹啊"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
     <Button android:id="@+id/log"
-        android:text="已有账户"
+        android:text="柯京辰你妹啊"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
 </LinearLayout>
